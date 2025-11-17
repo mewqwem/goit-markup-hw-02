@@ -4,7 +4,7 @@ body{
     background-color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 a{
     text-decoration: none;
@@ -25,17 +25,18 @@ h3{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
     text-decoration: none;
 }
 .logo {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 .page-nav .nav-links a {
     font-weight: 500;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 
 }
@@ -46,11 +47,18 @@ h3{
 .page-nav .nav-links a:active{
     text-decoration: underline;
 }
+.contacts-links{
+    font-style: normal;
+}
 .contacts-links a{
     color: #434455;
 }
-.contacts-links a:hover{
+.contacts-links a:hover,
+.contacts-links a:focus{
     color: #404BBF;
+}
+.list-item{
+    letter-spacing: 0.02em;
 }
 .hero-section {
     background-color: #2e2f42;
@@ -60,6 +68,8 @@ h3{
     font-size: 56px;
     letter-spacing: 2%;
     line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .btn{
     background-color: #4d5ae5;
@@ -67,6 +77,7 @@ h3{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 4%;
+    letter-spacing: 0.04em;
 }
 .btn:hover,
 .btn:focus {
@@ -78,8 +89,13 @@ h3{
 }
 .section-title{
     font-size: 36px;
-    letter-spacing: 2%;
     color: #2e2f42;
+}
+.features-section, .features-section{
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .features-section > .section-title {
     visibility: hidden;
@@ -88,10 +104,30 @@ h3{
 .team-section{
     background-color: #f4f4fd;
 }
-footer {
+.team-section .section-title{
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+}
+.team-list{
+    background-color: #ffffff;
+}
+.portfolio-section .section-title{
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.text {
+    letter-spacing: 0.02em;
+}
+.page-footer {
     background-color: #2E2F42;
     color: #f4f4fd;
 }
-footer .logo-link {
-    color: #f4f4fd;
+.page-footer .logo-link {
+    color: #4d5ae5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
