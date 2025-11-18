@@ -91,13 +91,9 @@ h3{
     font-size: 36px;
     color: #2e2f42;
 }
-.features-section, .features-section{
+.features-section .section-title{
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-.features-section > .section-title {
     visibility: hidden;
 }
 
