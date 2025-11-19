@@ -18,7 +18,8 @@ h1, h2{
 h3{
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
     color: #2e2f42;
 }
 .logo-link{
@@ -96,7 +97,10 @@ h3{
     letter-spacing: 0.02em;
     visibility: hidden;
 }
-
+.features-title{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 .team-section{
     background-color: #f4f4fd;
 }
@@ -104,16 +108,24 @@ h3{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    line-height: 1.2;
+    line-height: 1.11;
 }
 .team-list-item{
     background-color: #ffffff;
 }
-.portfolio-section .section-title{
+.team-title{
     line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-section .section-title{
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+.portfolio-title{
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .text {
     letter-spacing: 0.02em;
